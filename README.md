@@ -1,4 +1,4 @@
-# nuxt-testing2
+# nuxt-contact-form
 
 ## Build Setup
 
