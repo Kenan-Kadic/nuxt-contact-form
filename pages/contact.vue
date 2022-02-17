@@ -158,7 +158,7 @@
       ],
       phonenumber: '',
       numberRules: [v => !!v || 'Phone number is required',
-        v => /^\d+$/.test(v)||'This field only accept numbers'],
+        v => /^\d+$/.test(v)||'Please enter a phone number'],
       email: '',
       emailRules: [
         v => !!v || 'E-mail is required',
