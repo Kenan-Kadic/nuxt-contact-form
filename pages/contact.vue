@@ -3,7 +3,7 @@
   <header>
   <h1 class=text-center>Contact Us</h1>
   </header>
-  <v-form v-model="valid">
+  <v-form ref="form" v-model="valid">
     <v-container>
       <v-row>
         <v-col
@@ -171,11 +171,7 @@
     }),
     methods: {
       onSubmit() {
-        this.nameRules;
-        this.numberRules;
-        this.emailRules;
-        this.messageRules;
-        this.dropdownRules;
+        this.$refs.form.validate()
       }
     }
   }
